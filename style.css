@@ -1,0 +1,218 @@
+/* layout */
+:root{
+    --primary-100: #F5FEE7;
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-500: #477A11;
+
+    --neutral-0: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-200: #E9ECEF;
+    --neutral-300: #DEE2E6;
+    --neutral-400: #CED4DA;
+    --neutral-500: #ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-700: #495057;
+    --neutral-800: #343A40;
+    --neutral-900: #212529;
+
+    --warning-300: #F38B12;
+}
+
+body{
+    box-sizing: border-box;
+    color: #212529;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-family: "Noto Sans TC",sans-serif;
+}
+/* padding 疑惑未解 */
+.container{
+    max-width: 856px;
+    margin: 0 auto;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+h4{
+    font-size:24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+/* .col-8{
+    width: 66.66666%;
+}
+.col-10{
+    width: 83.333%;
+}
+.col-12{
+    width: 100%;
+} */
+
+
+.p-32{
+    padding: 32px;
+}
+.pl-8{
+    padding-left: 8px;
+}
+.pl-12{
+    padding-left: 12px;
+}
+.pb-4{
+    padding-bottom: 4px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.radius-sm{
+    border-radius: 4px;
+}
+.radius-md{
+    border-radius: 12px;
+}
+.radius-rounded{
+    border-radius: 1000px;
+}
+
+.bd-left-1{
+    border-left: 1px solid var(--neutral-900);
+}
+.bd-left-3{
+    border-left: 3px solid var(--neutral-300);
+}
+.bd-bottom-1{
+    border-bottom: 1px solid var(--primary-400);
+}
+.bd-bottom-1-section{
+    border-bottom: 1px solid var(--neutral-300);
+}
+
+.footer{
+    background-color: var(--neutral-100);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-wrap{
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+/* page */
+.hero-section{
+    color: #fff;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 151px 0;
+}
+
+.highlight-section{
+    background-color: var(--primary-100);
+    text-align: center;
+}
+.highlight-section h5{
+    color: var(--primary-400);
+}
+.highlight-section p{
+    color: var(--neutral-900);
+}
+
+
+.main-img{
+    margin-left: -110px;
+    margin-right: -110px;
+}
+.main-img img{
+    display: block;
+    max-width: 1076px;
+    width: 100%;
+    height: auto;
+}
+
+.brand-intro-section h5{
+    color: var(--primary-400);
+}
+
+.brand-timeline-section ul{
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.brand-story-section ul li a{
+    display: block;
+    color: var(--primary-400);
+    text-decoration: none;
+}
+.brand-story-section ul li a:hover{
+    color: var(--warning-300);
+}
+.brand-story-section ul li a i{
+    font-size: 20px;
+}
+.brand-story-section ul li a i,
+.brand-story-section ul li a span{
+    display: inline-block;
+    vertical-align: middle;
+}
