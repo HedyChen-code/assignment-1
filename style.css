@@ -370,7 +370,11 @@ h6{
 .container-product-list main .content{
     flex: 1;
 }
-.container-product-list main .content .product-list .product-list-card img{
+.product-list-card a{
+    text-decoration: none;
+    color: var(--neutral-900);
+}
+.container-product-list main .content .product-list .product-list-card a img{
     width: 342.67px;
     height: 342.67px;
 }
