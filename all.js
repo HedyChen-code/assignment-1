@@ -1,3 +1,4 @@
+// 收藏按鈕
 document.addEventListener("DOMContentLoaded", function () {
   // 選取所有收藏按鈕（支援多個商品的情境）
     const wishlistButtons = document.querySelectorAll(".btn-wishlist");
@@ -17,3 +18,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     });
 });
+
+// 產品詳情頁 - 輪播
+  new Swiper('.swiper', {
+    spaceBetween: 16,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    slidesPerView: 1.2,
+    breakpoints: {
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 24,
+      }  
+    }
+  });
