@@ -459,7 +459,7 @@ h6{
 為何不會讓 .container-brand-intro 的內容寬度縮小？ */
 .hero-section{
     color: #fff;
-    background-image: url(/img/2025-week2/desktop/hero.png);
+    background-image: url(./img/2025-week2/desktop/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
