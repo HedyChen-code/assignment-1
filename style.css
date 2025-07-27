@@ -470,7 +470,7 @@ h6{
 @media(max-width:768px){
     .hero-section{
         width: 100%;
-        background-image: url(/img/2025-week2/mobile/hero-s.png);
+        background-image: url(./img/2025-week2/mobile/hero-s.png);
         padding: 87px 0;
     }
     .hero-section h1{
